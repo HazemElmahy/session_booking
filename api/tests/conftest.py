@@ -18,6 +18,7 @@ from sqlalchemy import Engine, create_engine, text
 from sqlalchemy.engine import make_url
 from sqlalchemy.orm import Session, sessionmaker
 
+import app.models  # noqa: F401  (registers every table on Base.metadata for truncation)
 from app.config import settings
 from app.db import Base, get_db
 from app.main import create_app
