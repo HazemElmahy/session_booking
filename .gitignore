@@ -1,0 +1,19 @@
+# Assignment brief, kept local
+ThoughtFull_TakeHome_Booking_Task.pdf
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+.env
+
+# Node
+node_modules/
+web/build/
+web/.svelte-kit/
+
+# Editors and OS
+.idea/
+.vscode/
+.DS_Store
