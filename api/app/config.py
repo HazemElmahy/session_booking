@@ -7,6 +7,7 @@ class Settings(BaseSettings):
     model_config = SettingsConfigDict(env_file=".env", extra="ignore")
 
     app_name: str = "Session Booking API"
+    database_url: str = "postgresql+psycopg://booking:booking@localhost:5432/booking"
 
 
 settings = Settings()
